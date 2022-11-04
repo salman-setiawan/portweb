@@ -37,7 +37,7 @@ const Project = () => {
         </div>
       </div>
       <div className='hidden md:block'>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center w-full'>
         <img src='portpage_web.png' alt="header_img" />
         <div className='w-3/5 xl:w-1/2'>
           <div className='flex flex-col items-center'>
