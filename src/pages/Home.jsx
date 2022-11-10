@@ -106,7 +106,7 @@ const Home = () => {
                 </div>
                 <div className="2xl:hidden block">
                   <div className='flex flex-row gap-x-8 mb-8'>
-                    <Link to='/mobtoon'>
+                    <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                     </Link>
                     <Link to='/project/28sept'>
@@ -117,14 +117,14 @@ const Home = () => {
                     <Link to='/project/edufams'>
                       <Card img="/edufams/mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
                     </Link>
-                    <Link to='/mobtoon'>
+                    <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/mobile.png" title='watsup' desc='Aplikasi Sosial Media' />
                     </Link>
                   </div>
                 </div>
                 <div className="hidden 2xl:block">
                   <div className='flex flex-row gap-x-8 mb-8'>
-                    <Link to='/mobtoon'>
+                    <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                     </Link>
                     <Link to='/project/edufams'>
@@ -135,7 +135,7 @@ const Home = () => {
                     </Link>
                   </div>
                   <div className='flex flex-row gap-x-8 mt-8'>
-                    <Link to='/mobtoon'>
+                    <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                     </Link>
                     <Link to='/project/edufams'>
