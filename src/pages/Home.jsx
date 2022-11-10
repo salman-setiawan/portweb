@@ -32,14 +32,14 @@ const Home = () => {
                 <BlueText title='Project' />
                 </div>
                 <div className='flex flex-col gap-y-5'>
-                  <Link to='/article'>
-                    <Card img="mobtoon_mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
+                  <Link to='/project/mobtoon'>
+                    <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                   </Link>
-                  <Link to='/article'>
-                    <Card img="edufams_mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
+                  <Link to='/project/edufams'>
+                    <Card img="/edufams/mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
                   </Link>
-                  <Link to='/article'>
-                    <Card img="28sept_mobile.png" title='Dua Delapan September' desc='Website Katalog Buku' />
+                  <Link to='/project/28sept'>
+                    <Card img="/28sept/mobile.png" title='Dua Delapan September' desc='Website Katalog Buku' />
                   </Link>
                 </div>
               </div>
@@ -106,43 +106,43 @@ const Home = () => {
                 </div>
                 <div className="2xl:hidden block">
                   <div className='flex flex-row gap-x-8 mb-8'>
-                    <Link to='/article'>
-                      <Card img="mobtoon_card.png" title='mobtoon' desc='Aplikasi Smart Country' />
+                    <Link to='/mobtoon'>
+                      <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                     </Link>
-                    <Link to='/article'>
-                      <Card img="28sept_card.png" title='Dua Delapan September' desc='Website Katalog Buku' />
+                    <Link to='/project/28sept'>
+                      <Card img="/28sept/mobile.png" title='Dua Delapan September' desc='Website Katalog Buku' />
                     </Link>
                   </div>
                   <div className='flex flex-row gap-x-8 mt-8'>
-                    <Link to='/article'>
-                      <Card img="edufams_card.png" title='EduFams' desc='Platform Edukasi Keluarga' />
+                    <Link to='/project/edufams'>
+                      <Card img="/edufams/mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
                     </Link>
-                    <Link to='/article'>
-                      <Card img="mobtoon_card.png" title='watsup' desc='Aplikasi Sosial Media' />
+                    <Link to='/mobtoon'>
+                      <Card img="/mobtoon/mobile.png" title='watsup' desc='Aplikasi Sosial Media' />
                     </Link>
                   </div>
                 </div>
                 <div className="hidden 2xl:block">
                   <div className='flex flex-row gap-x-8 mb-8'>
-                    <Link to='/article'>
-                      <Card img="mobtoon_card.png" title='mobtoon' desc='Aplikasi Smart Country' />
+                    <Link to='/mobtoon'>
+                      <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                     </Link>
-                    <Link to='/article'>
-                      <Card img="edufams_card.png" title='EduFams' desc='Platform Edukasi Keluarga' />
+                    <Link to='/project/edufams'>
+                      <Card img="/edufams/mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
                     </Link>
-                    <Link to='/article'>
-                      <Card img="28sept_card.png" title='Dua Delapan September' desc='Website Katalog Buku' />
+                    <Link to='/project/28sept'>
+                      <Card img="/28sept/mobile.png" title='Dua Delapan September' desc='Website Katalog Buku' />
                     </Link>
                   </div>
                   <div className='flex flex-row gap-x-8 mt-8'>
-                    <Link to='/article'>
-                      <Card img="mobtoon_card.png" title='mobtoon' desc='Aplikasi Smart Country' />
+                    <Link to='/mobtoon'>
+                      <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                     </Link>
-                    <Link to='/article'>
-                      <Card img="edufams_card.png" title='EduFams' desc='Platform Edukasi Keluarga' />
+                    <Link to='/project/edufams'>
+                      <Card img="/edufams/mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
                     </Link>
-                    <Link to='/article'>
-                      <Card img="watsup_card.png" title='watsup' desc='Aplikasi Sosial Media' />
+                    <Link to='/project/watsup'>
+                      <Card img="/watsup/mobile.png" title='watsup' desc='Aplikasi Sosial Media' />
                     </Link>                  
                   </div>
                 </div>
