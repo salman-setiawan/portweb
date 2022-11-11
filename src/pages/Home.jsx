@@ -87,7 +87,7 @@ const Home = () => {
       </div>
       <div className='hidden md:block'>
         <div className='flex flex-col items-center'>
-          <img src='header.png' alt="header_img" />
+          <img className='w-full' src='header.png' alt="header_img" />
             {/* <div className='flex justify-center mb-6'>
             <img className="w-32 h-32 lg:w-40 lg:h-40 rounded-full" src="avatar.png" alt="Rounded avatar" />
             </div> */}

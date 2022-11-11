@@ -8,7 +8,7 @@ const Experience = () => {
     <div>
       <div className='md:hidden block'>
         <div className='flex flex-col items-center'>
-        <img className='w-full' src='portpage_mobile.png' alt="header_img" />
+        <img className='w-full' src='/overview/mobile.png' alt="header_img" />
           <div className=''>
             <div className='px-8 mt-8'>
               <div className='flex flex-col items-start'>
@@ -53,7 +53,7 @@ const Experience = () => {
       </div>
       <div className='hidden md:block'>
         <div className='flex flex-col items-center'>
-        <img src='portpage_web.png' alt="header_img" />
+        <img className='w-full' src='/overview/web.png' alt="header_img" />
         <div className='w-2/3 2xl:w-1/2'>
           <div className='flex flex-col items-start mt-12'>
             <div className='mb-6'>
