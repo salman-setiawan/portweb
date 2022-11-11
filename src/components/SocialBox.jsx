@@ -5,16 +5,16 @@ function SocialBox() {
     <div>
       <div>
         <div className='flex flex-row gap-x-4'>
-          <div className='bg-black p-2'>
-            <a href={'https://www.linkedin.com/in/salman-setiawan/'} target="_blank">
+          <a href={'https://www.linkedin.com/in/salman-setiawan/'} target="_blank">
+            <div className='bg-black p-2 hover:bg-blue-700'>
               <img src='icon_linkedin.svg' alt="icon" />
-            </a>
-          </div>
-          <div className='bg-black p-2'>
-            <a href={'http://www.instagram.com/ikrxu'} target="_blank">
+            </div>
+          </a>
+          <a href={'http://www.instagram.com/ikrxu'} target="_blank">
+            <div className='bg-black p-2 hover:bg-blue-700'>
               <img src='icon_instagram.svg' alt="icon" />
-            </a>
-          </div>
+              </div>
+          </a>
         </div>
       </div>
     </div>

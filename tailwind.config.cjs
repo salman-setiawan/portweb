@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       boxShadow: {
         'sha1': '0px 0.5px 16px rgba(0, 0, 0, 0.1)',
-      }
+      },
     },
   },
   plugins: [],

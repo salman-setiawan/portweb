@@ -45,7 +45,7 @@ const Project = () => {
                 <div className='pb-6'>
                   <BlueText title='Project' />
                 </div>
-                <div className="2xl:hidden block">
+                <div className="">
                   <div className='flex flex-row gap-x-8 mb-8'>
                     <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/card.png" title='mobtoon' desc='Aplikasi Smart Country' />
@@ -63,7 +63,7 @@ const Project = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="hidden 2xl:block">
+                {/* <div className="hidden 2xl:block">
                   <div className='flex flex-row gap-x-8 mb-8'>
                     <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/card.png" title='mobtoon' desc='Aplikasi Smart Country' />
@@ -86,7 +86,7 @@ const Project = () => {
                       <Card img="/watsup/card.png" title='watsup' desc='Aplikasi Sosial Media' />
                     </Link>                  
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
               <div className='pt-16 pb-4'>

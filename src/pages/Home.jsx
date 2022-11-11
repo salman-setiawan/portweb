@@ -91,7 +91,7 @@ const Home = () => {
             {/* <div className='flex justify-center mb-6'>
             <img className="w-32 h-32 lg:w-40 lg:h-40 rounded-full" src="avatar.png" alt="Rounded avatar" />
             </div> */}
-          <div className='w-3/5 xl:w-[60rem]'>
+          <div className='w-4/5 xl:w-[64rem]'>
             <div className="flex flex-col gap-y-6 items-center justify-center pt-8">
               <TitleContent name='Salman Setiawan' degree='S1 Informatika' school='Institut Teknologi Kalimantan' place='Balikpapan, Indonesia' />
               <SocialBox />
@@ -104,8 +104,8 @@ const Home = () => {
                 <div className='mb-6'>
                   <BlueText title='Project' />
                 </div>
-                <div className="2xl:hidden block">
-                  <div className='flex flex-row gap-x-8 mb-8'>
+                <div className="">
+                  <div className='flex flex-row gap-x-6 mb-8'>
                     <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/card.png" title='mobtoon' desc='Aplikasi Smart Country' />
                     </Link>
@@ -113,16 +113,16 @@ const Home = () => {
                       <Card img="/28sept/card.png" title='Dua Delapan September' desc='Website Katalog Buku' />
                     </Link>
                   </div>
-                  <div className='flex flex-row gap-x-8 mt-8'>
+                  <div className='flex flex-row gap-x-6 mt-8'>
                     <Link to='/project/edufams'>
                       <Card img="/edufams/card.png" title='EduFams' desc='Platform Edukasi Keluarga' />
                     </Link>
-                    <Link to='/project/mobtoon'>
-                      <Card img="/mobtoon/card.png" title='watsup' desc='Aplikasi Sosial Media' />
+                    <Link to='/project/watsup'>
+                      <Card img="/watsup/card.png" title='watsup' desc='Aplikasi Sosial Media' />
                     </Link>
                   </div>
                 </div>
-                <div className="hidden 2xl:block">
+                {/* <div className="hidden 2xl:block">
                   <div className='flex flex-row gap-x-8 mb-8'>
                     <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/card.png" title='mobtoon' desc='Aplikasi Smart Country' />
@@ -145,7 +145,7 @@ const Home = () => {
                       <Card img="/watsup/card.png" title='watsup' desc='Aplikasi Sosial Media' />
                     </Link>                  
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className='mt-10'>
                 <Link to='/project'>
@@ -155,15 +155,17 @@ const Home = () => {
             </div>
             <div className='flex flex-col items-start mt-24'>
               <div className='mb-6'>
-              <BlueText title='Experience' />
+                <BlueText title='Experience' />
               </div>
-              <div className='flex flex-row gap-x-32 mb-5'>
-                <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
-                <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
-              </div>
-              <div className='flex flex-row gap-x-32 mb-5'>
-                <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
-                <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
+              <div className="grid grid-cols-2 gap-x-4">
+                <div className='mb-5'>
+                  <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
+                  <AwardText date='02/22 - 07/22' title='UI/UX Designer Internship' company='PT. Media Kreasi Abadi' />
+                </div>
+                <div className='mb-5'>
+                  <AwardText date='09/22 - Present' title='UI/UX Designer Internship' company='PT. Ghazi Teknologi Indonesia' />
+                  <AwardText date='10/22 - Present' title='UI/UX Designer Freelance' company='CV. Dua Delapan September' />
+                </div>
               </div>
             </div>
             <div className='mt-8 flex justify-center'>
