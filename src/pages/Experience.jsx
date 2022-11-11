@@ -54,7 +54,7 @@ const Experience = () => {
       <div className='hidden md:block'>
         <div className='flex flex-col items-center'>
         <img className='w-full' src='/overview/web.png' alt="header_img" />
-        <div className='w-2/3 2xl:w-1/2'>
+        <div className='w-2/3 2xl:w-[60rem]'>
           <div className='flex flex-col items-start mt-12'>
             <div className='mb-6'>
             <BlueText title='Experience' />

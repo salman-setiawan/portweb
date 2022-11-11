@@ -73,7 +73,7 @@ const Edufams = () => {
       <div className='hidden md:block'>
         <div className='flex flex-col items-center'>
         <img className='w-full' src='/edufams/web.png' alt="header_img" />
-          <div className='w-3/5 xl:w-1/2'>
+          <div className='w-3/5 xl:w-[60rem]'>
             <div className="flex justify-center pt-4">
               <TitleArticle name='mobtoon' type='Aplikasi Baca Komik' project='Individual Project' />
             </div>

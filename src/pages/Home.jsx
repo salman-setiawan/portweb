@@ -91,7 +91,7 @@ const Home = () => {
             {/* <div className='flex justify-center mb-6'>
             <img className="w-32 h-32 lg:w-40 lg:h-40 rounded-full" src="avatar.png" alt="Rounded avatar" />
             </div> */}
-          <div className='w-3/5 xl:w-1/2'>
+          <div className='w-3/5 xl:w-[60rem]'>
             <div className="flex flex-col gap-y-6 items-center justify-center pt-8">
               <TitleContent name='Salman Setiawan' degree='S1 Informatika' school='Institut Teknologi Kalimantan' place='Balikpapan, Indonesia' />
               <SocialBox />
