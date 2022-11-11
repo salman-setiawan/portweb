@@ -10,7 +10,7 @@ const Project = () => {
     <div>
       <div className='md:hidden block'>
         <div className='flex flex-col items-center'>
-        <img className='w-full' src='portpage_mobile.png' alt="header_img" />
+        <img className='w-full' src='/overview/mobile.png' alt="header_img" />
           <div className=''>
             <div className='py-8 px-8'>
               <div className='flex flex-col items-start'>
@@ -38,7 +38,7 @@ const Project = () => {
       </div>
       <div className='hidden md:block'>
         <div className='flex flex-col items-center'>
-        <img src='portpage_web.png' alt="header_img" />
+        <img src='/overview/web.png' alt="header_img" />
         <div className='w-3/5 xl:w-1/2'>
           <div className='flex flex-col items-center'>
             <div className='flex flex-col items-start py-12'>
@@ -47,32 +47,32 @@ const Project = () => {
               </div>
               <div className="2xl:hidden block">
                 <div className='flex flex-row gap-x-8 mb-8'>
-                  <Link to='/article'>
-                    <Card img="mobtoon_card.png" title='mobtoon' desc='Aplikasi Smart Country' />
+                  <Link to='/project/mobtoon'>
+                    <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                   </Link>
-                  <Link to='/article'>
-                    <Card img="28sept_card.png" title='Dua Delapan September' desc='Website Katalog Buku' />
+                  <Link to='/project/28sept'>
+                    <Card img="/28sept/mobile.png" title='Dua Delapan September' desc='Website Katalog Buku' />
                   </Link>
                 </div>
                 <div className='flex flex-row gap-x-8 mt-8'>
-                  <Link to='/article'>
-                    <Card img="edufams_card.png" title='EduFams' desc='Platform Edukasi Keluarga' />
+                  <Link to='/project/edufams'>
+                    <Card img="/edufams/mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
                   </Link>
-                  <Link to='/article'>
-                    <Card img="watsup_card.png" title='watsup' desc='Aplikasi Sosial Media' />
+                  <Link to='/project/watsup'>
+                    <Card img="/watsup/mobile.png" title='watsup' desc='Aplikasi Sosial Media' />
                   </Link>
                 </div>
               </div>
               <div className="hidden 2xl:block">
                 <div className='flex flex-row gap-x-8 mb-8'>
                   <Link to='/project/mobtoon'>
-                    <Card img="/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
+                    <Card img="/mobtoon/mobile.png" title='mobtoon' desc='Aplikasi Smart Country' />
                   </Link>
                   <Link to='/project/edufams'>
-                    <Card img="/mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
+                    <Card img="/edufams/mobile.png" title='EduFams' desc='Platform Edukasi Keluarga' />
                   </Link>
                   <Link to='/project/28sept'>
-                    <Card img="/mobile.png" title='Dua Delapan September' desc='Website Katalog Buku' />
+                    <Card img="/28sept/mobile.png" title='Dua Delapan September' desc='Website Katalog Buku' />
                   </Link>
                 </div>
                 <div className='flex flex-row gap-x-8 mt-8'>
