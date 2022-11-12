@@ -8,6 +8,7 @@ import TitleContent from '../components/TitleContent'
 import YellowTextBox from '../components/YellowTextBox'
 import { Link } from 'react-router-dom'
 import SocialBox from '../components/SocialBox'
+import ExperienceText from '../components/ExperienceText'
 
 const Home = () => {
   return (
@@ -43,7 +44,7 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className='flex justify-center mt-10'>
+              <div className='flex justify-center mt-12'>
                 <Link to='/project'>
                   <Button text="lihat lebih banyak" />
                 </Link>
@@ -54,13 +55,13 @@ const Home = () => {
                 <div className='mb-6'>
                 <BlueText title='Experience' />
                 </div>
-                <div className='flex flex-col gap-y-5'>
-                  <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
-                  <AwardText date='02/22 - 07/22' title='UI/UX Designer Internship' company='PT. Media Kreasi Abadi' />
+                <div className='flex flex-col gap-y-8'>
+                  <ExperienceText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
+                  <ExperienceText date='02/22 - 07/22' title='UI/UX Designer Internship' company='PT. Media Kreasi Abadi' />
                 </div>
               </div>
               </div>
-              <div className='mt-10 flex justify-center'>
+              <div className='mt-12 flex justify-center'>
                 <Link to='/experience'>
                   <Button text="lihat lebih lengkap" />
                 </Link>
@@ -79,7 +80,7 @@ const Home = () => {
                   </div>
                 </div>
               </div> */}
-              <div className='px-8 pb-4'>
+              <div className='mt-24 px-8 pb-4'>
                 <Footer date='@2022' copyright='Styled by @ikrxu' />
               </div>
           </div>
@@ -158,11 +159,11 @@ const Home = () => {
                 <BlueText title='Experience' />
               </div>
               <div className="grid grid-cols-2 gap-x-4">
-                <div className='mb-5'>
+                <div className='flex flex-col mb-5 gap-y-8'>
                   <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
                   <AwardText date='02/22 - 07/22' title='UI/UX Designer Internship' company='PT. Media Kreasi Abadi' />
                 </div>
-                <div className='mb-5'>
+                <div className='flex flex-col mb-5 gap-y-8'>
                   <AwardText date='09/22 - Present' title='UI/UX Designer Internship' company='PT. Ghazi Teknologi Indonesia' />
                   <AwardText date='10/22 - Present' title='UI/UX Designer Freelance' company='CV. Dua Delapan September' />
                 </div>
@@ -185,7 +186,7 @@ const Home = () => {
                 <AwardText date='07/2021 - 07/2023' title='Competency Certification of Junior Graphic Design' company='Balai Pelatihan dan Pengembangan Teknologi Informasi dan Komunikasi' />
               </div>
             </div> */}
-            <div className='pb-4'>
+            <div className='mt-24 pb-4'>
               <Footer date='@2022' copyright='Styled by @ikrxu' />
             </div>
           </div>
