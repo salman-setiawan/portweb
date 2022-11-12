@@ -56,7 +56,7 @@ const Home = () => {
                 </div>
                 <div className='flex flex-col gap-y-5'>
                   <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
-                  <AwardText date='09/22 - Present' title='UI/UX Designer' company='PT. Ghazi Teknologi Indonesia' />
+                  <AwardText date='02/22 - 07/22' title='UI/UX Designer Internship' company='PT. Media Kreasi Abadi' />
                 </div>
               </div>
               </div>
@@ -65,7 +65,7 @@ const Home = () => {
                   <Button text="lihat lebih lengkap" />
                 </Link>
               </div>
-              <div className="px-8 mt-24">
+              {/* <div className="px-8 mt-24">
                 <div className='flex flex-col items-start'>
                   <div className='mb-6'>
                   <BlueText title='Certificate' />
@@ -78,7 +78,7 @@ const Home = () => {
                     <AwardText date='07/2021 - 07/2023' title='Competency Certification of Junior Graphic Design' company='Balai Pelatihan dan Pengembangan Teknologi Informasi dan Komunikasi' />
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className='px-8 pb-4'>
                 <Footer date='@2022' copyright='Styled by @ikrxu' />
               </div>
@@ -173,7 +173,7 @@ const Home = () => {
                 <Button text="lihat lebih lengkap" />
               </Link>
             </div>
-            <div className='flex flex-col items-start mt-24'>
+            {/* <div className='flex flex-col items-start mt-24'>
               <div className='mb-6'>
               <BlueText title='Certificate' />
               </div>
@@ -184,7 +184,7 @@ const Home = () => {
                 <AwardText date='02/2022 - 02/2024' title='MS Wellbeing Center: Digital Product Innovation Challenge (Completion with Honor)' company='Skilvul' />
                 <AwardText date='07/2021 - 07/2023' title='Competency Certification of Junior Graphic Design' company='Balai Pelatihan dan Pengembangan Teknologi Informasi dan Komunikasi' />
               </div>
-            </div>
+            </div> */}
             <div className='pb-4'>
               <Footer date='@2022' copyright='Styled by @ikrxu' />
             </div>

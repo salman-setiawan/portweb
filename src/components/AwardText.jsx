@@ -17,16 +17,16 @@ function AwardText(props) {
       <div className='mt-2 mb-1 text-sm'>
         {props.desc1}
       </div>
-      <div className='mb-1 text-sm'>
+      <div className='mb-3 text-sm'>
         {props.desc2}
       </div>
-      <div className='mb-1 text-sm'>
+      <div className='mb-3 text-sm'>
         {props.desc3}
       </div>
-      <div className='mb-1 text-sm'>
+      <div className='mb-3 text-sm'>
         {props.desc4}
       </div>
-      <div className='mb-1 text-sm'>
+      <div className='mb-3 text-sm'>
         {props.desc5}
       </div>
     </div>
