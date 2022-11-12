@@ -22,7 +22,7 @@ const Dualapan = () => {
         loading ?
 
         <div className="h-screen flex flex-col justify-center items-center gap-y-6">
-          <img src="logo.svg" alt="icon" />
+          <img src="/logo.svg" alt="icon" />
           <BarLoader
             size={80}
             color={'#6BC4FF'}
