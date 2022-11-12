@@ -14,7 +14,7 @@ function AwardText(props) {
       <div className='text-gray-500 text-sm'>
         {props.date}
       </div>
-      <div className='mt-2 mb-1 text-sm'>
+      <div className='mt-3 mb-3 text-sm'>
         {props.desc1}
       </div>
       <div className='mb-3 text-sm'>
@@ -48,8 +48,8 @@ function AwardText(props) {
         <div className='lg:hidden text-gray-500'>
           {props.date}
         </div>
-        <div className='mt-2 mb-1'>
-        {props.desc1}
+        <div className='mt-3 mb-3'>
+          {props.desc1}
         </div>
         <div className='mb-3'>
           {props.desc2}

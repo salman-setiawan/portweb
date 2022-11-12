@@ -9,6 +9,7 @@ import YellowTextBox from '../components/YellowTextBox'
 import { Link } from 'react-router-dom'
 import SocialBox from '../components/SocialBox'
 import ExperienceText from '../components/ExperienceText'
+import TitleArticle from '../components/TitleArticle'
 
 const Home = () => {
   return (
@@ -21,7 +22,8 @@ const Home = () => {
             <img className="w-32 h-32 rounded-full" src="avatar.png" alt="Rounded avatar" />
             </div> */}
             <div className="flex flex-col gap-y-6 items-center justify-center pt-4">
-              <TitleContent name='Salman Setiawan' degree='S1 Informatika' school='Institut Teknologi Kalimantan' place='Balikpapan, Indonesia' />
+              {/* <TitleContent name='Salman Setiawan' degree='S1 Informatika' school='Institut Teknologi Kalimantan' place='Balikpapan, Indonesia' /> */}
+              <TitleArticle name='Salman Setiawan' type='UI/UX Designer' project='Balikpapan, Indonesia' />
               <SocialBox />
             </div>
             <div className="flex justify-center px-8 py-8">
@@ -94,7 +96,8 @@ const Home = () => {
             </div> */}
           <div className='w-4/5 xl:w-[64rem]'>
             <div className="flex flex-col gap-y-6 items-center justify-center pt-8">
-              <TitleContent name='Salman Setiawan' degree='S1 Informatika' school='Institut Teknologi Kalimantan' place='Balikpapan, Indonesia' />
+              {/* <TitleContent name='Salman Setiawan' degree='S1 Informatika' school='Institut Teknologi Kalimantan' place='Balikpapan, Indonesia' /> */}
+              <TitleArticle name='Salman Setiawan' type='UI/UX Designer' project='Balikpapan, Indonesia' />
               <SocialBox />
             </div>
             <div className="flex justify-center pt-16 pb-8">
@@ -106,6 +109,11 @@ const Home = () => {
                   <BlueText title='Project' />
                 </div>
                 <div className="">
+                  <div className='pb-8'>
+                    <Link to='/project/mobtoon'>
+                      <Card img="/overview/highlightcard.png" title='mobtoon' desc='Aplikasi Smart Country' />
+                    </Link>
+                  </div>
                   <div className='flex flex-row gap-x-6 mb-8'>
                     <Link to='/project/mobtoon'>
                       <Card img="/mobtoon/card.png" title='mobtoon' desc='Aplikasi Smart Country' />
