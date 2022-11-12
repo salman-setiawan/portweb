@@ -8,10 +8,10 @@ function AwardText(props) {
       <div className='font-semibold mb-1'>
         {props.title}
       </div>
-      <div className='text-gray-500 mb-1 text-sm'>
+      <div className='text-gray-400 mb-1 text-sm'>
         {props.company}
       </div>
-      <div className='text-gray-500 text-sm'>
+      <div className='text-gray-400 text-sm'>
         {props.date}
       </div>
       <div className='mt-3 mb-3 text-sm'>
@@ -34,7 +34,7 @@ function AwardText(props) {
   <div className='hidden md:block'>
     <div className='grid lg:grid-cols-4 gap-x-32'>
       <div className="pr-16 w-64">
-        <div className='hidden lg:block text-gray-500'>
+        <div className='hidden lg:block text-gray-400'>
           {props.date}
         </div>
       </div>
@@ -42,10 +42,10 @@ function AwardText(props) {
         <div className='font-semibold mb-1'>
           {props.title}
         </div>
-        <div className='text-gray-500'>
+        <div className='text-gray-400'>
           {props.company}
         </div>
-        <div className='lg:hidden text-gray-500'>
+        <div className='lg:hidden text-gray-400'>
           {props.date}
         </div>
         <div className='mt-3 mb-3'>
