@@ -40,7 +40,7 @@ const Home = () => {
         <div>
           <div className='md:hidden block'>
             <div className='flex flex-col items-center'>
-              <div className="w-full flex justify-center bg-[url('/header.png')] bg-cover">
+              <div className="w-full bg-center flex justify-center bg-[url('/header.png')] bg-cover">
                 <div className="px-8">
                   <div className="grid grid-rows-2 gap-y-8 py-16">
                     <div className="text-3xl font-light leading-[3rem]">
@@ -52,7 +52,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className=''>
+              <div className='pt-8'>
                 <div className='px-8'>
                   <div className='flex flex-col items-start'>
                     <div className='mb-6'>
@@ -114,7 +114,7 @@ const Home = () => {
           </div>
           <div className='hidden md:block'>
             <div className="block xl:hidden">
-                <div className="w-full flex justify-center bg-[url('/header.png')] bg-cover">
+                <div className="w-full bg-center flex justify-center bg-[url('/header.png')] bg-cover">
                   <div className="w-4/5 xl:w-[64rem]">
                     <div className="grid grid-rows-2 gap-y-8 py-16">
                       <div className="w-4/5 text-4xl font-light leading-[4rem]">
