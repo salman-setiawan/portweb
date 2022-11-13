@@ -9,7 +9,7 @@ function YellowTextBox(props) {
               <div className='text-lg'>
                   🧒🏻
               </div>
-              <div className='text-sm'>
+              <div className='text-sm leading-relaxed'>
                   {props.text}
               </div>
           </div>
@@ -21,7 +21,7 @@ function YellowTextBox(props) {
               <div className='text-xl'>
                   🧒🏻
               </div>
-              <div>
+              <div className='leading-relaxed'>
                   {props.text}
               </div>
           </div>

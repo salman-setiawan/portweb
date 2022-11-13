@@ -40,19 +40,19 @@ const Home = () => {
         <div>
           <div className='md:hidden block'>
             <div className='flex flex-col items-center'>
-            <img className='w-full' src='headermob.png' alt="header_img" />
+              <div className="w-full flex justify-center bg-[url('/header.png')] bg-cover">
+                <div className="px-8">
+                  <div className="grid grid-rows-2 gap-y-8 py-16">
+                    <div className="text-3xl font-light leading-[3rem]">
+                      Saya Salman Setiawan, Desainer dari Balikpapan, Indonesia.
+                    </div>
+                    <div className="flex items-center justify-center bg-[#2E3442]">
+                      <YellowTextBox text='Saat ini menjadi bagian dari tim desain dari Ghazi, sebuah perusahaan perorangan asal Balikpapan, Indonesia. Memiliki minat yang kuat pada riset dan implementasi desain.' />
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className=''>
-                {/* <div className='flex justify-center mb-6'>
-                <img className="w-32 h-32 rounded-full" src="avatar.png" alt="Rounded avatar" />
-                </div> */}
-                <div className="flex flex-col gap-y-6 items-center justify-center pt-4">
-                  {/* <TitleContent name='Salman Setiawan' degree='S1 Informatika' school='Institut Teknologi Kalimantan' place='Balikpapan, Indonesia' /> */}
-                  <TitleArticle name='Salman Setiawan' type='UI/UX Designer' project='Balikpapan, Indonesia' />
-                  <SocialBox />
-                </div>
-                <div className="flex justify-center px-8 py-8">
-                  <YellowTextBox text='Hello everyone, kenalin nama saya Salman dan sekarang saya merupakan mahasiswa Informatika dari Institut Teknologi Kalimantan. Selamat Menjelajah :D' />
-                </div>
                 <div className='px-8'>
                   <div className='flex flex-col items-start'>
                     <div className='mb-6'>
@@ -113,20 +113,38 @@ const Home = () => {
             </div>
           </div>
           <div className='hidden md:block'>
+            <div className="block xl:hidden">
+                <div className="w-full flex justify-center bg-[url('/header.png')] bg-cover">
+                  <div className="w-4/5 xl:w-[64rem]">
+                    <div className="grid grid-rows-2 gap-y-8 py-16">
+                      <div className="w-4/5 text-4xl font-light leading-[4rem]">
+                        Saya Salman Setiawan, Desainer dari Balikpapan, Indonesia.
+                      </div>
+                      <div className="flex items-center justify-center">
+                        <YellowTextBox text='Saat ini menjadi bagian dari tim desain dari Ghazi, sebuah perusahaan perorangan asal Balikpapan, Indonesia. Memiliki minat yang kuat pada riset dan implementasi desain.' />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div className="hidden xl:block">
+              <div className="w-full flex justify-center bg-[url('/header.png')] bg-cover">
+                <div className="w-4/5 xl:w-[64rem]">
+                  <div className="grid grid-cols-2 gap-x-8 py-40">
+                    <div className="text-4xl font-light leading-[4rem]">
+                      Saya Salman Setiawan, Desainer dari Balikpapan, Indonesia.
+                    </div>
+                    <div className="py-3">
+                      <div className="flex items-center justify-center bg-[#2E3442]">
+                        <YellowTextBox text='Saat ini menjadi bagian dari tim desain dari Ghazi, sebuah perusahaan perorangan asal Balikpapan, Indonesia. Memiliki minat yang kuat pada riset dan implementasi desain.' />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className='flex flex-col items-center'>
-              <img className='w-full' src='header.png' alt="header_img" />
-                {/* <div className='flex justify-center mb-6'>
-                <img className="w-32 h-32 lg:w-40 lg:h-40 rounded-full" src="avatar.png" alt="Rounded avatar" />
-                </div> */}
-              <div className='w-4/5 xl:w-[64rem]'>
-                <div className="flex flex-col gap-y-6 items-center justify-center pt-8">
-                  {/* <TitleContent name='Salman Setiawan' degree='S1 Informatika' school='Institut Teknologi Kalimantan' place='Balikpapan, Indonesia' /> */}
-                  <TitleArticle name='Salman Setiawan' type='UI/UX Designer' project='Balikpapan, Indonesia' />
-                  <SocialBox />
-                </div>
-                <div className="flex justify-center pt-16 pb-8">
-                  <YellowTextBox text='Hello everyone, kenalin nama saya Salman dan sekarang saya merupakan mahasiswa Informatika dari Institut Teknologi Kalimantan. Selamat Menjelajah :D' />
-                </div>
+              <div className='w-4/5 xl:w-[64rem] pt-16'>
                 <div className='flex flex-col items-center'>
                   <div className='flex flex-col items-start'>
                     <div className='mb-6'>
@@ -196,7 +214,7 @@ const Home = () => {
                       <AwardText date='02/22 - 07/22' title='UI/UX Designer Internship' company='PT. Media Kreasi Abadi' />
                     </div>
                     <div className='flex flex-col mb-5 gap-y-8'>
-                      <AwardText date='09/22 - Present' title='UI/UX Designer Internship' company='PT. Ghazi Teknologi Indonesia' />
+                      <AwardText date='09/22 - Present' title='UI/UX Designer Internship' company='Griya Bunda Sehat' />
                       <AwardText date='10/22 - Present' title='UI/UX Designer Freelance' company='CV. Dua Delapan September' />
                     </div>
                   </div>
